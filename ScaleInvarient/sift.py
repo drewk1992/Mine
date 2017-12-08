@@ -15,5 +15,5 @@ def img_sift(img):
     cv2.imwrite('/mnt/114e4710-77b7-4a37-a8f6-0177deea301b/Pictures/Thesis/Mines/SiftPoints/sift_keypoints8.jpg',img)
 
 if __name__ == '__main__':
-    image = cv2.imread('/mnt/114e4710-77b7-4a37-a8f6-0177deea301b/Pictures/Thesis/Mines/IMG_1461.JPG', cv2.IMREAD_ANYCOLOR)
+    image = cv2.imread('/Mines/org/IMG_1461.JPG', cv2.IMREAD_ANYCOLOR)
     img_sift(image)

@@ -31,5 +31,5 @@ def find_mine(img):
 
 
 if __name__ == '__main__':
-    image = cv2.imread('/mnt/114e4710-77b7-4a37-a8f6-0177deea301b/Desktop/Link to Mine/Hough/test.jpg', cv2.IMREAD_ANYCOLOR)
+    image = cv2.imread('/Hough/test.jpg', cv2.IMREAD_ANYCOLOR)
     find_mine(image)

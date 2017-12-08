@@ -2,8 +2,8 @@ import cv2
 import numpy as np
 
 #import images
-b2= cv2.imread('Trimmed/re1.png',0)
-b1= cv2.imread('Trimmed/nir1.png',0)
+b1= cv2.imread('Trimmed/r1.png',0)
+b2= cv2.imread('Trimmed/b1.png',0)
 
 # get image size
 sz = b1.shape
@@ -39,4 +39,4 @@ else :
  
 # Show final results
 
-cv2.imwrite('Trimmed/RE_alligned.png',Green_aligned)
+cv2.imwrite('Trimmed/B_alligned.png',Green_aligned)

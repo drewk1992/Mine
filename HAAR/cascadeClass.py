@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 #load input image
-image = cv2.imread('/mnt/114e4710-77b7-4a37-a8f6-0177deea301b/Desktop/Link to Mine/HAAR/mine.jpg')
+image = cv2.imread('/mnt/114e4710-77b7-4a37-a8f6-0177deea301b/Desktop/Link to Mine/HAAR/Search2.JPG')
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 #close_k = np.ones((20, 20), np.uint8)
 #open_k = np.ones((10, 10), np.uint8)

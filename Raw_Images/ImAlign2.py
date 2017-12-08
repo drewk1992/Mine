@@ -7,14 +7,15 @@ if __name__ == '__main__':
     # This is an image in which the three channels are
     # concatenated vertically.
  
-    im =  cv2.imread("composite.png", cv2.IMREAD_GRAYSCALE);
+    im =  cv2.imread("Trimmed/r_re_nir.png", cv2.IMREAD_GRAYSCALE);
  
     # Find the width and height of the color image
     sz = im.shape
     print sz
-    height = int(sz[0] / 3);
+    height = int(sz[0]/3);
+    print height
     width = sz[1]
- 
+    print width
     # Extract the three channels from the gray scale image
     # and merge the three channels into one color image
     im_color = np.zeros((height,width,3), dtype=np.uint8 )
